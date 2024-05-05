@@ -2,7 +2,7 @@ macro_imeonoff: macro_imeonoff{
 compatible = "zmk,behavior-macro";
 label = "macro_imeonoff";
 #binding-cells = <0>;
-bindings = <&kp LEFT_ALT>, <&kp GRAVE>;
+bindings = <&sk LEFT_ALT>, <&kp GRAVE>;
 };
 macro_imeon: macro_imeon{
 compatible = "zmk,behavior-macro";
