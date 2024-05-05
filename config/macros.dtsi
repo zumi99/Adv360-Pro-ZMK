@@ -1,12 +1,12 @@
-macro_ime-on: macro_ime-on{
+macro_imeon: macro_imeon{
 compatible = "zmk,behavior-macro";
-label = "macro_ime-on";
+label = "macro_imeon";
 #binding-cells = <0>;
 bindings = <&kp RIGHT_ALT>, <&kp SPACE>;
 };
-macro_ime-off: macro_ime-off{
+macro_imeoff: macro_imeoff{
 compatible = "zmk,behavior-macro";
-label = "macro_ime-off";
+label = "macro_imeoff";
 #binding-cells = <0>;
 bindings = <&kp LEFT_ALT>, <&kp SPACE>;
 };
